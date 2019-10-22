@@ -1,5 +1,5 @@
 import React from "react";
-import "./preview-collection.scss";
+import "./collection-preview.scss";
 
 const PreviewCollection = ({ title, items }) => (
   <div className="collection-preview">

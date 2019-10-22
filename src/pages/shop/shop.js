@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ShopData from "./shop-data";
 
-import CollectionPreview from "../../components/preview-collection/preview-collection";
+import CollectionPreview from "../../components/collection-preview/collection-preview";
 
 class ShopPage extends Component {
   state = {
@@ -12,8 +12,10 @@ class ShopPage extends Component {
     const { collections } = this.state;
     return (
       <div className="shop-page">
+        oloada
         {collections.map(({ id, ...collectionsProps }) => (
           <CollectionPreview key={id} {...collectionsProps}/>
+          
         ))}
       </div>
     );
