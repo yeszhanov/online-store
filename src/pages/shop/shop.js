@@ -12,7 +12,6 @@ class ShopPage extends Component {
     const { collections } = this.state;
     return (
       <div className="shop-page">
-        oloada
         {collections.map(({ id, ...collectionsProps }) => (
           <CollectionPreview key={id} {...collectionsProps}/>
           
